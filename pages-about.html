@@ -230,3 +230,116 @@
 
 </div>
 <!-- END PAGE META -->
+<!-- START PRIMARY -->
+<div id="primary" class="sidebar-right">
+    <div class="container group">
+        <div class="row">
+            <!-- START CONTENT -->
+            <div id="content-page" class="span9 content group">
+                <div class="page type-page status-publish hentry group">
+                    <h4>This is a nice and fresh staff page</h4>
+                    <p>&nbsp;</p>
+                    <div class="accordion-container">
+                        
+                        <div class="accordion-wrapper row">
+                            <div class="accordion-title span9">
+                                <div class="plus">+</div>
+                                <h4>Ramadan Adi Ariawan</h4>
+                            </div>
+                            
+                            <div class="accordion-item span9">
+                                <div class="row">
+                                    <div class="span3">
+                                        <div class="accordion-item-thumb">
+                                            <img src="images/pages/celestino.jpg" alt="Celestino Magrì" />
+                                        </div>
+                                    </div>
+                                    <!-- end span3 -->
+                                    
+                                    <div class="span6">
+                                        <div class="accordion-item-content">
+                                            <p>
+                                                Hello, my name is Ramadan Adi Ariawan! I'm pleased to meet you. 
+                                                I have interests in various things and am always open to expanding my knowledge and meeting new people. 
+                                                Let's build a positive connection and inspire each other!
+                                            </p>
+                                            <div class="clear space"></div>
+                                            <div class="meta">
+                                                <p>
+                                                    <img class="icon" src="images/icons/role.png" alt="role_icon" />Role: Co-founder</p>
+                                                <p>
+                                                    <img class="icon" src="images/icons/website.png" alt="website_icon" />
+                                                    Social Media: <a href="https://www.instagram.com/ramadanadiariawan/"><img class="icon" src="images/instagram.svg"/></a>
+                                                </p>
+                                                
+                                                <p>
+                                                    <img class="icon" src="images/icons/social-meta.png" alt="social_icon" />Get in touch:
+                                                    <a href="https://shopee.co.id/localgiftt"><img class="icon" src="images/icons8-shopee-20.svg"/></a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-wrapper row">
+                            <div class="accordion-title span9">
+                                <div class="plus">+</div>
+                                <h4>Susan Sarandon</h4>
+                            </div>
+                            <div class="accordion-item span9">
+                                <div class="row">
+                                    <div class="span3">
+                                        <div class="accordion-item-thumb">
+                                            <img src="images/pages/susan.jpg" alt="Susan Sarandon" />
+                                        </div>
+                                    </div><!-- end span3 -->
+                                    <div class="span6">
+                                        <div class="accordion-item-content">
+                                            <p>
+                                                Hello, my name is Susan Sarandon! I'm pleased to meet you. 
+                                                I have interests in various things and am always open to expanding my knowledge and meeting new people. 
+                                                Let's build a positive connection and inspire each other!
+                                            </p>
+                                            <div class="clear space"></div>
+                                            <div class="meta">
+                                                <p>
+                                                    <img class="icon" src="images/icons/role.png" alt="role_icon" />Role: Co-founder</p>
+                                                <p>
+                                                    <img class="icon" src="images/icons/website.png" alt="website_icon" />
+                                                    Social Media: <a href="https://www.instagram.com/ramadanadiariawan/"><img class="icon" src="images/instagram.svg"/></a>
+                                                </p>
+                                                
+                                                <p>
+                                                    <img class="icon" src="images/icons/social-meta.png" alt="social_icon" />Get in touch:
+                                                    <a href="https://shopee.co.id/localgiftt"><img class="icon" src="images/icons8-shopee-20.svg"/></a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <script>
+                        jQuery(document).ready(function($){
+                            $('.accordion-title').click(function(){
+                                if( !$(this).hasClass('active') ) {
+                                    $('.accordion-title').removeClass('active').find(':first-child').addClass('plus').text("+").removeClass('minus');
+                                    $('.accordion-item').slideUp();
+
+                                    $(this).toggleClass('active')
+                                            .find(':first-child').removeClass('plus').addClass('minus').text("-").parent().next().slideToggle();
+                                }
+                            }).filter(':first').click();
+                        });
+                    </script>
+
+                </div>
+                <!-- START COMMENTS -->
+                <div id="comments"></div>
+                <!-- END COMMENTS -->
+            </div>
+            <!-- END CONTENT -->
