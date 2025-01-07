@@ -13,6 +13,7 @@
 			preventDefaultEvents: true
 		};
      
+		
 		if (settings) $.extend(config, settings);
  
 		this.each(function() {

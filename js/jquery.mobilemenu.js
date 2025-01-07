@@ -6,6 +6,7 @@
  * Built on top of the jQuery library
  *   http://jquery.com
  * 
+ * 
  * Documentation
  * 	 http://github.com/mambows/mobilemenu
  */
